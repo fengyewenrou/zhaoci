@@ -25,12 +25,32 @@
 					{url:banner2},
 					{url:banner3},
 					{url:banner4},
-				]
+				],
+				bSince:false,
 			}
 		},
 		mounted() {
 			let $banner = $('.banner');
 			$banner.css({height:$(window).height() - 60,"background-image":"url("+this.srcOptions[parseInt(4*Math.random())].url+")"});
+
+			this.scroll();
+		},
+		methods:{
+			scroll() {
+				//滚动
+			    $(window).scroll(function () {
+			        //$(window).scrollTop()这个方法是当前滚动条滚动的距离
+			        let oHeight = $(window).scrollTop();
+
+			        if(this.bSince)return;
+
+			        if (oHeight >= 60){
+			        	$(window).scrollTop($('.banner').height());
+			        	this.bSince = true;
+			        }
+
+			    });
+			},
 		},
 		components:{
 			homeDetail,

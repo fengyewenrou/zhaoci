@@ -56,7 +56,7 @@ export default [
 		children:[],
 	},
 	{
-		text: '古言',
+		text: '卖萌',
 		isShow: true,
 		url: '/secret',
 		name: 'secret',

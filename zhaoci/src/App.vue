@@ -2,6 +2,7 @@
     @import './styles/common.scss';
     @import './styles/page.scss';
     @import './styles/public.scss';
+
 </style>
 
 <template>

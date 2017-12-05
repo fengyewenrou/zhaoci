@@ -1,0 +1,154 @@
+.registerS-page{
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:url(../../styles/images/regBackgroud.png) no-repeat center;
+	background-size:100% 100%;
+    z-index: 100;
+    overflow-y: scroll;
+    .regPage-waper{
+    	position: absolute;
+	    top: 7%;
+	    width: 100%;
+	    height: 80%;
+	    .icon{
+    	    display: inline-block;
+		    cursor: pointer;
+		    width: 40px;
+		    height: 40px;
+		    background-image: url(../../styles/images/shanchu.png);
+		    background-repeat: no-repeat;
+		    background-size: 100% 100%;
+		    position: absolute;
+		    top: -6px;
+		    right: 50px;
+	    }
+	    .regPage-content{
+    	    position: absolute;
+		    left: 50%;
+		    top: 50%;
+		    margin-left: -400px;
+		    width: 800px;
+		    height: 615px;
+		    margin-top: -320px;
+		    .regText{
+		    	text-align: center;
+			    color: #fff;
+			    margin-bottom: 55px;
+			    font-size: 50px;
+		    }
+		    .regPage-form{
+				position: relative;
+			    height: 100%;
+			    width: 360px;
+			    margin: 0 auto;
+			  .regPage-input{
+		    	    position: relative;
+				    width: 100%;
+				    height: 44px;
+				    margin-bottom: 30px;
+				    border-bottom: 2px solid #fff;
+				    input{
+				    	font-size: 18px;
+					    width: 100%;
+					    padding: 11px 0;
+					    border: none;
+					    background-color: rgba(255,255,255,0);
+				    }
+				    input::-webkit-input-placeholder {
+						color: #fff;
+				    }
+	      
+				    label{
+			    	    display: none;
+					    position: absolute;
+					    width: 100%;
+					    font-size: 12px;
+					    color: #ABAEB0;
+					    top: -7px;
+	    				left: 0px;
+				    }
+				    .icon-eyes{
+				    	display: inline-block;
+					    cursor: pointer;
+					    width: 30px;
+					    height: 18px;
+					    background-position: center center;
+					    background-repeat: no-repeat;
+					    background-image: url(../../styles/images/login_check.png);
+					    position: absolute;
+					    top: 15px;
+					    right: 5px;
+				    }
+				    .vifImg{
+				    	position: relative;
+					    cursor: pointer;
+					    width: 100px;
+					    height: 30px;
+					    float: right;
+					    background-color: #D0D5DA;
+					    margin-top: -40px;
+					    z-index: 1;
+					    img{
+					    	width: 100%;
+					    	height: 100%;
+					    	background-size: 100% 100%;
+					    }
+				    }
+				    .upVifi{
+					    color: #2E9FFF;
+					    font-size: 14px;
+					    cursor: pointer;
+					    position: absolute;
+					    top: 10px;
+					    right: 0;
+				    }			   
+			    }
+			    button{
+		    	    display: block;
+				    margin: 0 auto;
+				    width: 100%;
+				    height: 50px;
+				    border-radius: 50px;
+				    font-size: 18px;
+				    color: #fff;
+				    border: 2px solid #fff;
+					background-color: rgba(255,255,255,0);
+			    }
+		    }
+	    }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -14,9 +14,20 @@
 		</div>
 		<div class="operate-area">
 			<ul class="form clearfix">
-				<li class="item float-l" v-for="(item,index) in buttonArea" :class="index===2?'write':''">
+				<!-- <li class="item float-l" v-for="(item,index) in buttonArea" :class="index===2?'write':''"> -->
+				<li class="item float-l">
+					<a href="javascript:;" @click="$router.push({name:'login'})">
+						登陆
+					</a>
+				</li>
+				<li class="item float-l">
+					<a href="javascript:;" @click="$router.push({name:'register'})">
+						注册
+					</a>
+				</li>
+				<li class="item float-l write">
 					<a href="javascript:;">
-						{{ item }}
+						写故事
 					</a>
 				</li>
 				<li class="item float-l user">
@@ -45,7 +56,7 @@
 		data() {
 			return {
 				username:'admin',
-				buttonArea:['登陆','注册','写故事']
+				//buttonArea:['登陆','注册','写故事']
 			}
 		},
 		computed:{
